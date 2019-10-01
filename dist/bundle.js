@@ -101432,7 +101432,7 @@ module.exports = ".ck-hidden{display:none!important}.ck.ck-reset,.ck.ck-reset_al
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".ck.ck-media-form{display:flex;align-items:flex-start;flex-direction:row;flex-wrap:nowrap}.ck.ck-media-form .ck-labeled-input{display:inline-block}.ck.ck-media-form .ck-label{display:none}@media screen and (max-width:600px){.ck.ck-media-form{flex-wrap:wrap}.ck.ck-media-form .ck-labeled-input{flex-basis:100%}.ck.ck-media-form .ck-button{flex-basis:50%}}"
+module.exports = ".ck.ck-media-form{display:flex;align-items:flex-start;flex-direction:row-reverse;flex-wrap:nowrap;margin:5px}.ck.ck-media-form .ck-labeled-input{display:inline-block}.ck.ck-media-form .ck-label{display:none}@media screen and (max-width:600px){.ck.ck-media-form{flex-wrap:wrap}.ck.ck-media-form .ck-labeled-input{flex-basis:100%}.ck.ck-media-form .ck-button{flex-basis:50%}}.ck.ck-input-text,.ck.ck-labeled-input .ck-labeled-input__status{text-align:right}.ck.ck-button,a.ck.ck-button{justify-content:right}"
 
 /***/ }),
 
