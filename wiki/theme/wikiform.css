@@ -3,9 +3,9 @@
 .ck.ck-media-form {
 	display: flex;
 	align-items: flex-start;
-	flex-direction: row-reverse;
+	flex-direction: row;
 	flex-wrap: nowrap;
-	margin: 5px;
+	margin: 10px;
 
 	& .ck-labeled-input {
 		display: inline-block;
@@ -28,10 +28,6 @@
 	}
 }
 
-.ck.ck-input-text, .ck.ck-labeled-input .ck-labeled-input__status {
-	text-align: right;
-}
-
-.ck.ck-button, a.ck.ck-button {
-	justify-content: right;
+.ck.ck-button.ck-button-save, a.ck.ck-button.ck-button-save {
+	margin: 0 10px;
 }
